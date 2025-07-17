@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.weather-box {
+    background-color:white;
+    padding: 30px;
+    border-radius: 15px;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #0a3d62;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #2d3436;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="/weather.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="weather-box">
+    <% if(locals.report){ %>
+   <br/> <h2>Weather report for city:<%=city %></h2><br/>
+    <p>Latitude:<%= latitude %></p><br/>
+    <p>Longitude:<%= longitude %></p><br/>
+    <p>Date:<%= date %></p><br/>
+    <p>Climate:<%= report %></p><br/>
+<% }%>
+    </div>
+</body>
+</html>
